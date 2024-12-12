@@ -1,0 +1,86 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit:cover;
+    margin-right: 20px;
+    border: 2px solid #333;
+}
+
+.header-text h1 {
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
+}
+
+.header-text p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+section ul {
+    list-style: disc inside;
+    padding: 0;
+    margin: 0;
+}
+
+section ul li {
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 1rem;
+}
+
+section p {
+    color: #555;
+    font-size: 1rem;
+}
+
+.job ul {
+    padding-left: 20px;
+}
+
+strong {
+    color: #333;
+}
